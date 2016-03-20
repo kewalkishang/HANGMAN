@@ -1,6 +1,11 @@
+import re
+
+stra="kewal"
 word="kewal"
 kw=word.replace("e","_")
-kw=kw.replace("a","_")
+pattern=r"[aeiou]"
+pat=re.sub(pattern,"_",stra)
+print(pat)
 print(kw)
 hi=list(word)
 print(hi)
