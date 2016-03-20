@@ -1,0 +1,1 @@
+hi these are the individual fuctions i had to try out since i just started with python .
